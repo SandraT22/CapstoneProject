@@ -48,7 +48,9 @@
 <li> Research on how to write a project proposal 9/16: https://www.scribbr.com/dissertation/research-proposal/#:~:text=Like%20your%20dissertation%20or%20thesis%2C%20the%20proposal%20will,Your%20supervisor%E2%80%99s%20name%204%20The%20institution%20and%20department
 <li> Research on how to use C#, React and API's in one project (previewed in order to pick and find one to watch in its entirety): https://youtu.be/gpfP60KjmZU, https://youtu.be/NemyDIUcC64, https://youtu.be/2ayNDsqtjHs, 
 <li> Research on using azure (previewed in order to pick and find one to watch in its entirety): https://youtu.be/_TUaTNc8czU. Decided not to use azure. 
-<li> Research on google maps api (overview in order to pick and find one to use): https://developers.google.com/maps/apis-by-platform, https://developers.google.com/maps,(need to make account in google cloud) https://youtu.be/9e-5QHpadi0
+<li> Research on google maps api (overview in order to pick and find one to use): https://developers.google.com/maps/apis-by-platform, https://developers.google.com/maps,(need to make account in google cloud) https://youtu.be/9e-5QHpadi0, https://youtu.be/iP3DnhCUIsE
+<li> To start building use https://youtu.be/gpfP60KjmZU. Start watching at 14 minutes. (skip the installation stuff and the setup for the API. Will probably have to look at this later if you end up having to build your own API for the haunted locations.)
+<li> Research for haunted loications API: Will need geocoding to make it work with the google maps API? 
 <br>
 </details>
 
