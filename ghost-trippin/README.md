@@ -43,7 +43,6 @@
 <br>
 </details>
 
-<details>
 <summary><strong>Project Research and activity log</strong></summary>
 <ul>
 <li>8:30am - 9am create github and create Readme to log activity. Start readme and brain storm what I need to do(mvp goals, what research I need to do)
@@ -56,10 +55,44 @@
 <li> 12:30pm to 1:30pm: Research for haunted loications API: Will need geocoding to make it work with the google maps API? Google images for the background. 
 <li> 1:30pm to 2:30pm: write out MVP goals (had previously just been thingking about them in order to know what I would need to research. After my research I have now made decisions and have a basic idea of what I will be able to do.), personal goals, and stretch goals. Start watching video at 14 minutes. I did not see ASP .net core when creating my project so I have to go in to modify it in the installer and needed to install an update. 
 <li> 2:30pm - 2:45pm: Update the log. 
+<li> break. 
+<li>
 <br>
-</details>
 
 ## Setup and Installation Requirements
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Known Bugs
 
