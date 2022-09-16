@@ -56,7 +56,7 @@
 <li> 1:30pm to 2:30pm: write out MVP goals (had previously just been thingking about them in order to know what I would need to research. After my research I have now made decisions and have a basic idea of what I will be able to do.), personal goals, and stretch goals. Start watching video at 14 minutes. I did not see ASP .net core when creating my project so I have to go in to modify it in the installer and needed to install an update. 
 <li> 2:30pm - 2:45pm: Update the log. 
 <li> break. 
-<li>
+<li>3pm to 4pm: created project in visual studio for C# backend. Created project in VSCode for react front end. Started trying to test a fetch call. 
 <br>
 
 ## Setup and Installation Requirements
