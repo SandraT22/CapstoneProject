@@ -43,10 +43,11 @@
 <br>
 </details>
 
-<summary><strong>Project Research and activity log</strong></summary>
+## Project Research and activity log
+### 9/16/22
 <ul>
 <li>8:30am - 9am create github and create Readme to log activity. Start readme and brain storm what I need to do(mvp goals, what research I need to do)
-<li> 9am to 10amResearch on how to write a project proposal 9/16: https://www.scribbr.com/dissertation/research-proposal/#:~:text=Like%20your%20dissertation%20or%20thesis%2C%20the%20proposal%20will,Your%20supervisor%E2%80%99s%20name%204%20The%20institution%20and%20department
+<li> 9am to 10amResearch on how to write a project proposal: https://www.scribbr.com/dissertation/research-proposal/#:~:text=Like%20your%20dissertation%20or%20thesis%2C%20the%20proposal%20will,Your%20supervisor%E2%80%99s%20name%204%20The%20institution%20and%20department
 <li> 10am to 11am: Research on how to use C#, React and API's in one project (previewed in order to pick and find one to watch in its entirety): https://youtu.be/gpfP60KjmZU, https://youtu.be/NemyDIUcC64, https://youtu.be/2ayNDsqtjHs, 
 <li> Break
 <li> 11:15am to 12pm: Research on using azure (previewed in order to pick and find one to watch in its entirety): https://youtu.be/_TUaTNc8czU. Decided not to use azure. 
@@ -59,7 +60,7 @@
 <li>3pm to 4pm: created project in visual studio for C# backend. Created project in VSCode for react front end. Started trying to test a fetch call.
 <li> 4pm to 5pm: Debug code to test api fetch call, read google maps platform info, create a google cloud account and create a google maps API Key. 
 <li> 5pm to 5:03pm: Update log. 
-<li> 5:03pm to 5:30pm:  
+<li> 5:03pm to 5:30pm:  https://youtu.be/9e-5QHpadi0 follow this tutorial to use google maps api. Left video at 3:40. Will pick up tomorrow on debugging the map display in the browser. 
 <br>
 
 ## Setup and Installation Requirements
