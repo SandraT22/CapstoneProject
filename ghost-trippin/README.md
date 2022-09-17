@@ -43,7 +43,7 @@
 <br>
 </details>
 
-## Project Research and activity log
+## Project Research and Planning Log
 ### 9/16/22
 <ul>
 <li>8:30am - 9am create github and create Readme to log activity. Start readme and brain storm what I need to do(mvp goals, what research I need to do)
