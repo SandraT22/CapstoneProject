@@ -60,7 +60,9 @@
 *_10:15am - 11am: Google the error, read through resources in google account, read through https://react-google-maps-api-docs.netlify.app/._ 
 *_11am: Lunch_
 *_12pm: Continue reading through https://react-google-maps-api-docs.netlify.app/. Billing is for sure enabled in my google account._
-*_1pm: Following this tutorial https://youtu.be/iP3DnhCUIsE_
+*_1pm - 2pm: Following this tutorial https://youtu.be/iP3DnhCUIsE. Still doesn't work. Debugging. Map shows with "For development purposes only" over it as well as a message saying "This page can't load google maps correctly". Double checked billing, account setup, API key all are good but map still not working. Map displays when API key is directly put into code._
+*_2:05pm - 2:25: Break_
+*_2:25pm: lookup how to make a logo_
 
 
 
