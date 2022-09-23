@@ -54,7 +54,9 @@
 
 *_7:35am: Find where I left off in the tutorial and get starteds on that again._
 *_8:13: Commit, update log and open project in browser._
-*_8:26: Project won't open in browser. Debugging. 
+*_8:26 - 9:15: Project won't open in browser. Debugging: googled error, browser is up, map not showing, Debugging for map: rewatched video to double check code, google the error, read through comments in video tutorial._
+*_9:15: Break_
+*_9:30am:
 
 
 ## Setup and Installation Requirements
