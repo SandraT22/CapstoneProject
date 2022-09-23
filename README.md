@@ -35,6 +35,9 @@
 <li> 5:03pm to 5:30pm:  https://youtu.be/9e-5QHpadi0 follow this tutorial to use google maps api. Left video at 3:40. Will pick up tomorrow on debugging the map display in the browser. 
 <br>
 
+### 9/23
+<li> 7:00am: Start planning for the day
+
 ## Setup and Installation Requirements
 
 ### `npm start`
