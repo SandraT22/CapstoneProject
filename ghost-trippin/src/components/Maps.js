@@ -1,5 +1,5 @@
 import React from "react";
-import { FetchAPI, Map } from "./ApiCallButton";
+import { FetchAPI } from "./ApiCallButton";
 
 function Maps() {
   return (

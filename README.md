@@ -59,7 +59,8 @@
 *_9:30am - 10:15am: logged into google account, entered new API key, error message in dobegguer: "google is not defined", displaying "Loading..." in browser which means API key is not loading. Continue debugging._ 
 *_10:15am - 11am: Google the error, read through resources in google account, read through https://react-google-maps-api-docs.netlify.app/._ 
 *_11am: Lunch_
-*_12pm: Continue reading through https://react-google-maps-api-docs.netlify.app/._
+*_12pm: Continue reading through https://react-google-maps-api-docs.netlify.app/. Billing is for sure enabled in my google account._
+*_1pm: Following this tutorial https://youtu.be/iP3DnhCUIsE_
 
 
 
