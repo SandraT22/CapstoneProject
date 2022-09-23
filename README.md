@@ -36,7 +36,25 @@
 <br>
 
 ### 9/23
-<li> 7:00am: Start planning for the day
+*_7:00am: Start planning for the day(organizing thoughts on paper)_
+*_7:30am: Transfer written to-do list to Readme_
+<details>
+<summary>To-do List</summary>
+<ul>Finish following the google API tutorial. 
+<li>Test in Browser. 
+<li>Debug if not working. 
+<li>Look-up how to add functionality for it to dosplay locations in a certain area. 
+<li>Try one more time to find a haunted locations API. 
+<li>Figure out how to use/implement that API. 
+<li>Create my own haunted locations API if necessary.
+<li>Connect the two APIs to work together in the project. 
+<li>If I need a break from the API work, look up how to make my own logo, add bootstrap to react project, add bootstrap styling (if I'm able to see the project in the browser). 
+<br>
+</details>
+
+*_7:35am: Find where I left off in the tutorial and get starteds on that again._
+*_8:13: 
+
 
 ## Setup and Installation Requirements
 
