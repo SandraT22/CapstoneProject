@@ -5,7 +5,7 @@ function Maps() {
   return (
     <React.Fragment>
       <FetchAPI />
-      <Map />
+      {/* <Map /> */}
     </React.Fragment>
   );
 }

@@ -45,7 +45,7 @@ export function FetchAPI() {
 }
 
 
-export default React.memo(MyComponent)
+export default React.memo(FetchAPI)
 
 // function FetchAPI() {
 //   const [data, setData] = useState([]);
