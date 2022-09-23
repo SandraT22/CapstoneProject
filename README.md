@@ -53,7 +53,8 @@
 </details>
 
 *_7:35am: Find where I left off in the tutorial and get starteds on that again._
-*_8:13: 
+*_8:13: Commit, update log and open project in browser._
+*_8:26: Project won't open in browser. Debugging. 
 
 
 ## Setup and Installation Requirements
