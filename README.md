@@ -56,7 +56,9 @@
 *_8:13: Commit, update log and open project in browser._
 *_8:26 - 9:15: Project won't open in browser. Debugging: googled error, browser is up, map not showing, Debugging for map: rewatched video to double check code, google the error, read through comments in video tutorial._
 *_9:15: Break_
-*_9:30am:
+*_9:30am - 10:15am: logged into google account, entered new API key, error message in dobegguer: "google is not defined", displaying "Loading..." in browser which means API key is not loading. Continue debugging. 
+*_10:15am - 11am: Google the error, read through resources in google account, read through https://react-google-maps-api-docs.netlify.app/. 
+*_11am: Lunch
 
 
 ## Setup and Installation Requirements

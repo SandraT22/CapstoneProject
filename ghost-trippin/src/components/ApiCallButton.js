@@ -1,24 +1,51 @@
 import React from "react";
-import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
-import { useMemo } from "react";
+import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+// import { useMemo } from "react";
+
+const containerStyle = {
+  width: '400px',
+  height: '400px'
+};
+
+const center = {
+  lat: -3.745,
+  lng: -38.523
+};
 
 export function FetchAPI() {
-  const{ isLoaded } = useLoadScript({
-    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
-  });
+  return (
+    <LoadScript
+      googleMapsApiKey="process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY"
+    >
+      <GoogleMap
+        mapContainerStyle={containerStyle}
+        center={center}
+        zoom={10}
+      >
+        { /* Child components, such as markers, info windows, etc. */ }
+        <></>
+      </GoogleMap>
+    </LoadScript>
+  )
+//   const{ isLoaded } = useLoadScript({
+//     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+//   });
 
-  if(!isLoaded) return <div>Loading...</div>;
-  return <div>Map</div>
+//   if(!isLoaded) return <div>Loading...</div>;
+//   return <div>Map</div>
+// }
+
+// export function Map() {
+// const center = useMemo(() => ({ lat: 44, lng: -80 }), []);
+
+//   return ( <GoogleMap zoom={10} center={{let:44, lng:-80}} mapContainerClassName="map-container">
+//      <Marker position={{ lat: 44, lng: -80 }} />
+//   </GoogleMap>
+//   );
 }
 
-export function Map() {
-const center = useMemo(() => ({ lat: 44, lng: -80 }), []);
 
-  return ( <GoogleMap zoom={10} center={{let:44, lng:-80}} mapContainerClassName="map-container">
-     <Marker position={{ lat: 44, lng: -80 }} />
-  </GoogleMap>
-  );
-}
+export default React.memo(MyComponent)
 
 // function FetchAPI() {
 //   const [data, setData] = useState([]);
