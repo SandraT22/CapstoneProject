@@ -14,12 +14,39 @@ export function FetchAPI() {
     // ...otherOptions
   })
 
-  const [map, setMap] = useState(/**@type google.maps.map */null)
+  const [map, setMap] = useState(/**@type google.maps.Map */ (null))
+  const [directionsResponse, setDirectionsResponse] = useState(null)
+  const [distance, setDistance] = useState('')
+  const [duration, setDuration] = useState('')
+
+  /** @type React.MutableRefObject<HTMLInputElement> */
+  const originRef = useRef()
+  /** @type React.MutableRefObject<HTMLInputElement> */
+  const destinationRef = useRef() 
+
 
   if (!isLoaded) {
     return 'Error';
   }
-    return (
+
+  async function calculateRoute() {
+    if (originRef.current.value === '' || destinationRef.current.value === '') {
+      return
+    }
+    // eslint-disable-next-line no-undef
+    const directionsService = new google.maps.DirectionsService()
+    const results = await directionsService.route({
+      origin: originRef.current.value,
+      destination: destinationRef.current.value,
+      // eslint-disable-next-line no-undef
+      travelMode: google.maps.TravelMode.DRIVING
+    })
+    setDirectionsResponse(results)
+    setDistance(results.routes[0].legs[0].distance.text)
+    setDuration(results.routes[0].legs[0].duration.text)
+  }
+
+  return (
     <Flex
       position='relative'
       flexdirection='column'
@@ -51,10 +78,10 @@ export function FetchAPI() {
       >
         <HStack spacing={4}>
           <Autocomplete>
-            <Input type='text' placeholder='Origin' />
+            <Input type='text' placeholder='Origin' ref={originRef} />
           </Autocomplete>
           <Autocomplete>
-            <Input type='text' placeholder='Destination' />
+            <Input type='text' placeholder='Destination' ref={destiantionRef} />
           </Autocomplete>
           <ButtonGroup>
             <Button colorScheme='pink' type='submit'>
