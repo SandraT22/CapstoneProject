@@ -85,6 +85,7 @@
 </details>
 
 *_8:35: Fix bug of storing API key properly._
+*_9:40: Finish following the google API tutorial._
 
 
 ## Setup and Installation Requirements
