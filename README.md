@@ -95,6 +95,7 @@
 *_1:45: Debug_
 *_2:25: Continued with tutorial. Marker is no longer displaying and the inputs for location and destination are not displaying. Continue with tutorial and will try to debug at the end._
 *_3:45: Break_
+*_4:00: Continue tutorial_
 
 
 
