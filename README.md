@@ -92,6 +92,8 @@
 *_11:40: Debug added code. Some things are not defined. Probably need to be imported from somewhere like bootstrap or react._
 *_12:40: Debug_
 *_12:45: Lunch_
+*_1:45: Debug_
+*_2:25: Continued with tutorial. Marker is no longer displaying and the inputs for location and destination are not displaying._
 
 
 
