@@ -6,7 +6,7 @@ const center = { lat: 44, lng: -80 }
 
 export function FetchAPI() {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: 'AIzaSyBkztmHf4V3Cmp1DkblMgMoSDNZ3Imv5RU',
+    googleMapsApiKey: '',
     // ...otherOptions
   })
 

@@ -68,6 +68,23 @@
 
 ### 9/30
 *_8:10am: Start planning for the day(organizing thoughts on paper)_
+*_8:35am: Transfer written to-do list to Readme_
+<details>
+<summary>To-do List</summary>
+<ul>
+<li>Fix bug of storing API key properly. 
+<li>Test in Browser. 
+<li>Debug if not working. 
+<li>Look-up how to add more functionality to the map:  display locations in a certain area, display route.  
+<li>Try one more time to find a haunted locations API. 
+<li>Figure out how to use/implement that API. 
+<li>Create my own haunted locations API if necessary.
+<li>Connect the two APIs to work together in the project. 
+<li>If I need a break from the API work, add more bootstrap styling (if I'm able to see the project in the browser). 
+<br>
+</details>
+
+*_8:35: Fix bug of storing API key properly._
 
 
 ## Setup and Installation Requirements
