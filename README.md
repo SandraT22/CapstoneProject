@@ -66,6 +66,8 @@
 *_2:25pm - 3:25pm: lookup how to make a logo. Put logo into project_
 *_3:25pm - 4pm: Install bootstrap and add some bootstrap styling._
 
+### 9/30
+*_8:10am: Start planning for the day(organizing thoughts on paper)_
 
 
 ## Setup and Installation Requirements
