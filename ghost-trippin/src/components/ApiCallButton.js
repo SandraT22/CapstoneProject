@@ -7,6 +7,7 @@ const center = { lat: 44, lng: -80 }
 export function FetchAPI() {
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: '',
+    // process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
     // ...otherOptions
   })
 
