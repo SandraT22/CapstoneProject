@@ -90,6 +90,8 @@
 *_10:45: Break_
 *_11:00: Continue with tutorial._
 *_11:40: Debug added code. Some things are not defined. Probably need to be imported from somewhere like bootstrap or react._
+*_12:40: Debug_
+*_12:45: Lunch_
 
 
 
