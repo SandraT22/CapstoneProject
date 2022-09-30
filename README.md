@@ -89,6 +89,7 @@
 *_10:40: Continue with tutorial._
 *_10:45: Break_
 *_11:00: Continue with tutorial._
+*_11:40: Debug added code. Some things are not defined. Probably need to be imported from somewhere like bootstrap or react._
 
 
 

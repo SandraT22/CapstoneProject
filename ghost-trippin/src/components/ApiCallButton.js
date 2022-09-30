@@ -1,5 +1,6 @@
-import { React, useState } from "react";
+import { React, useState, Text, Flex, Box, HStack, Input, IconButton, FaTimes, FaLocationArrow } from "react";
 import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
+import { Button, ButtonGroup } from 'react-bootstrap';
 
 
 const center = { lat: 44, lng: -80 }
@@ -60,7 +61,7 @@ export function FetchAPI() {
           </ButtonGroup>
         </HStack>
         <HStack>
-          <Test>Distance: </Test>
+          <Text>Distance: </Text>
           <Text>Duration: </Text>
           <IconButton
             aria-label='center back'
