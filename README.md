@@ -88,6 +88,7 @@
 *_9:40: Finish following the google API tutorial._
 *_10:40: Continue with tutorial._
 *_10:45: Break_
+*_11:00: Continue with tutorial._
 
 
 
