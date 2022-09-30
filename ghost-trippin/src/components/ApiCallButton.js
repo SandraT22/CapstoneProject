@@ -1,13 +1,14 @@
-import { React, useState, Text, Flex, Box, HStack, Input, IconButton, FaTimes, FaLocationArrow } from "react";
+import React, { useState } from "react";
 import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
-import { Button, ButtonGroup } from 'react-bootstrap';
+import { Box, Button, ButtonGroup, Flex, HStack, IconButton, Input, SkeletonText, Text } from '@chakra-ui/react';
+import { FaLocationArrow, FaTimes } from 'react-icons/fa';
 
 
 const center = { lat: 44, lng: -80 }
 
 export function FetchAPI() {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: 'AIzaSyDqiFw5KX3WDiaIthgWaHeHFm_PSaYbUVs',
+    googleMapsApiKey: '',
     // process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
     // ...otherOptions
   })
@@ -15,7 +16,7 @@ export function FetchAPI() {
   const {map, setMap} = useState(null)
 
   if (!isLoaded) {
-    return <skeletonText />
+    return <SkeletonText />
   }
     return (
     <Flex

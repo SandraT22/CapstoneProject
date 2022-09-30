@@ -5,7 +5,7 @@ import NaviBar from "./NavBar";
 function Header() {
   return (
     <React.Fragment>
-      <img src={ GtLogo } alt="Logo image of car with dotted train making the picture of a ghost."></img>
+      <img src={ GtLogo } alt="Logo of car with dotted train making the picture of a ghost."></img>
       <NaviBar />
     </React.Fragment>
   );
