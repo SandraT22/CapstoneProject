@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { GoogleMap, Marker, useJsApiLoader, Autocomplete } from "@react-google-maps/api";
-import { Box, Button, ButtonGroup, Flex, HStack, IconButton, Input, SkeletonText, Text } from '@chakra-ui/react';
+import { useState, useRef } from "react";
+import { GoogleMap, Marker, useJsApiLoader, Autocomplete, DirectionsRenderer } from "@react-google-maps/api";
+import { Box, Button, ButtonGroup, Flex, HStack, IconButton, Input, Text } from '@chakra-ui/react';
 import { FaLocationArrow, FaTimes } from 'react-icons/fa';
 
 
@@ -18,6 +18,8 @@ export function FetchAPI() {
   const [directionsResponse, setDirectionsResponse] = useState(null)
   const [distance, setDistance] = useState('')
   const [duration, setDuration] = useState('')
+
+  //add variables for other features like radius and display locations or something?
 
   /** @type React.MutableRefObject<HTMLInputElement> */
   const originRef = useRef()
@@ -39,11 +41,19 @@ export function FetchAPI() {
       origin: originRef.current.value,
       destination: destinationRef.current.value,
       // eslint-disable-next-line no-undef
-      travelMode: google.maps.TravelMode.DRIVING
+      travelMode: google.maps.TravelMode.DRIVING,
     })
     setDirectionsResponse(results)
     setDistance(results.routes[0].legs[0].distance.text)
     setDuration(results.routes[0].legs[0].duration.text)
+  }
+
+  function clearRoute() {
+    setDirectionsResponse(null)
+    setDistance('')
+    setDuration('')
+    originRef.current.value = ''
+    destinationRef.current.value = ''
   }
 
   return (
@@ -58,13 +68,14 @@ export function FetchAPI() {
         <GoogleMap
           center={center}
           zoom={15}
-          mapContainerClassName="map-container"
-          options={{ zoomControl: false, streetViewControl: false, mapTypeControl: false, fullscreenControl: false }}
-          onLoad={(map) => setMap(map)}
+          mapContainerStyle={{ width: '100%', height: '100%' }}
+          // options={{ zoomControl: false, streetViewControl: false, mapTypeControl: false, fullscreenControl: false }}
+          onLoad={map => setMap(map)}
         >
-          {
           <Marker position={center} />
-          }
+          {directionsResponse && (
+            <DirectionsRenderer directions={directionsResponse} />
+          )}
         </GoogleMap>
       </Box>
       <Box
@@ -74,34 +85,42 @@ export function FetchAPI() {
         bgcolor='white'
         shadow='base'
         minW='container.md'
-        zIndex='modal'
+        zIndex='1'
       >
-        <HStack spacing={4}>
-          <Autocomplete>
-            <Input type='text' placeholder='Origin' ref={originRef} />
-          </Autocomplete>
-          <Autocomplete>
-            <Input type='text' placeholder='Destination' ref={destiantionRef} />
-          </Autocomplete>
+        <HStack spacing={2} justifyContent='space-between'>
+          <Box flexGrow={1}>
+            <Autocomplete>
+              <Input type='text' placeholder='Origin' ref={originRef} />
+            </Autocomplete>
+          </Box>
+          <Box flexGrow={1}>
+            <Autocomplete>
+              <Input type='text' placeholder='Destination' ref={destinationRef} />
+            </Autocomplete>
+          </Box>
+
           <ButtonGroup>
-            <Button colorScheme='pink' type='submit'>
+            <Button colorScheme='pink' type='submit' onClick={calculateRoute}>
               Calculate Route
             </Button>
             <IconButton
             aria-label='center back'
             icon={<FaTimes />}
-            onClick={() => alert(123)}
+            onClick={clearRoute}
             />
           </ButtonGroup>
         </HStack>
-        <HStack>
-          <Text>Distance: </Text>
-          <Text>Duration: </Text>
+        <HStack spacing={4} mt={4} justifyContent='space-between'>
+          <Text>Distance: {distance}</Text>
+          <Text>Duration: {duration}</Text>
           <IconButton
             aria-label='center back'
             icon={<FaLocationArrow />}
             isRound
-            onClick={() => map.panTo(center)}
+            onClick={() => {
+              map.panTo(center) 
+              map.setZoom(15)
+            }}
           />
         </HStack>
       </Box>

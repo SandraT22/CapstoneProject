@@ -96,6 +96,7 @@
 *_2:25: Continued with tutorial. Marker is no longer displaying and the inputs for location and destination are not displaying. Continue with tutorial and will try to debug at the end._
 *_3:45: Break_
 *_4:00: Continue tutorial_
+*_4:29 - 5:10pm: Finished tutorial, but the origin and destination inputs are still not displaying. Found the github repo and will comb through it to see if I made any mistakes. Found a few missing UI things. It's displaying now._
 
 
 
