@@ -104,13 +104,15 @@
 <details>
 <summary>To-do List</summary>
 <ul>
-<li> 
-<li>T
-<li> 
-<li>
-<li> 
-<li>
-<li>
+<li> Look up how to add functionality to the API to display locations within a radius of a certain location or route.  
+<li> Try to add it. 
+<li> Test in browser
+<li> Debug
+<li> Start to make hounted locations API. 
+<li> Connect this API to React project to display a list
+<li> Test in Browser
+<li> Debug
+<li> Add functionality to connect it to the maps API so that those locations are displayed in the map. 
 <li> 
 <li>
 <br>
