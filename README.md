@@ -98,6 +98,24 @@
 *_4:00: Continue tutorial_
 *_4:29 - 5:10pm: Finished tutorial, but the origin and destination inputs are still not displaying. Found the github repo and will comb through it to see if I made any mistakes. Found a few missing UI things. It's displaying now._
 
+### 10/3
+*_2:10pm: Start planning for the day(organizing thoughts on paper)_
+*_2:30pm: Transfer written to-do list to Readme_
+<details>
+<summary>To-do List</summary>
+<ul>
+<li> 
+<li>T
+<li> 
+<li>
+<li> 
+<li>
+<li>
+<li> 
+<li>
+<br>
+</details>
+
 
 
 ## Setup and Installation Requirements
