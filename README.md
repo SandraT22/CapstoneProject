@@ -118,6 +118,10 @@
 <br>
 </details>
 
+*_2:32: Break_
+*_2:52: Look up how to add functionality to the API to display locations within a radius of a certain location or route. Resources: https://developers.google.com/maps/documentation/javascript/places#find_place_from_query. Maybe for now MVP should be to stick with the maps API we have now and just make a haunted locationa API where the user types in a city and a list of locations will display and the user can then enter the location into the google maps thing to look it up? Maybe just add functionality to display location details? Stretch goal can be to add details functionality to map and add functionality to display location markers in the map at the same time ar the route. 
+
+
 
 
 ## Setup and Installation Requirements
