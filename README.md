@@ -149,7 +149,11 @@
 https://learn.microsoft.com/en-us/dotnet/core/tutorials/cli-templates-create-item-template
 
 *_10:07: Break_
-*_10:27: Continue research_
+*_10:27: Continue research. I'm not sure why my project looks so different from the video. Will make a new one to compare_
+*_11:30 -12pm: Build new project while following tutorial and still referencing epicodus lessons._
+https://youtu.be/Br8H-TuSSO8
+
+*_12pm: Lunch_
 
 
 
