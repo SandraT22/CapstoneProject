@@ -157,6 +157,7 @@ https://youtu.be/Br8H-TuSSO8
 *_1pm: Continue tutorial_
 *_1:55pm: Realized that I created my table wrong so I'm going back into MySQL to do it again_
 *_2pm: Continue tutorial_
+*_2:30pm: Break_
 
 
 
