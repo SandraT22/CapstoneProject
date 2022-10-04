@@ -148,6 +148,8 @@
 *_8:50am: Read through API Epicodus lessons to refresh memory. Create github repo for API project. Find out how to get template files in Visual Studio_
 https://learn.microsoft.com/en-us/dotnet/core/tutorials/cli-templates-create-item-template
 
+*_10:07: Break_
+
 
 
 
