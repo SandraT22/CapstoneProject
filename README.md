@@ -123,6 +123,9 @@
 *_3:52: Start building haunted locations API in MySQL Workbench. Review lesson on MySQL and building an API. Created database in MySQL Workbench._ 
 *_4:45: Sign out_
 
+### 10/4
+*_8:00am: Start planning for the day(organizing thoughts on paper)_
+
 
 
 ## Setup and Installation Requirements
