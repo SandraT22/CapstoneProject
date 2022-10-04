@@ -154,6 +154,7 @@ https://learn.microsoft.com/en-us/dotnet/core/tutorials/cli-templates-create-ite
 https://youtu.be/Br8H-TuSSO8
 
 *_12pm: Lunch_
+*_1pm: Continue
 
 
 
