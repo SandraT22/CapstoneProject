@@ -149,6 +149,8 @@
 https://learn.microsoft.com/en-us/dotnet/core/tutorials/cli-templates-create-item-template
 
 *_10:07: Break_
+*_10:27: Continue research_
+
 
 
 
