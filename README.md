@@ -158,6 +158,7 @@ https://youtu.be/Br8H-TuSSO8
 *_1:55pm: Realized that I created my table wrong so I'm going back into MySQL to do it again_
 *_2pm: Continue tutorial_
 *_2:30pm: Break_
+*_2:45: Continue tutorial. Try to figure out what parts I need to rename to fit my project. Then make a github for it and delete the old one. Need to figure put how to install packages in Visual Studio: manage nuget packages_
 
 
 
