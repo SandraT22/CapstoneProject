@@ -125,6 +125,25 @@
 
 ### 10/4
 *_8:00am: Start planning for the day(organizing thoughts on paper)_
+*_8:15am: Join Dev team scrum on Discord._
+*_8:30am: Morning Scrum on google meets. CANCELED_
+*_8:33am: Transfer written to-do list to Readme_ 
+<details>
+<summary>To-do List</summary>
+<ul>
+<li> Read through API Epicodus lessons to refresh memory.  https://www.learnhowtoprogram.com/c-and-net/building-an-api/new-api-template  
+<li> Follow the lessons to create project with the haunted locations API. 
+<li> Test in the browser. 
+<li> Debug
+<li> Write Readme for this project with endpoints. 
+<li> Connect that project to this project. Follow epicodus lessons https://www.learnhowtoprogram.com/react/react-with-apis/ny-times-api-making-an-api-call-with-fetch-and-usestate. 
+<li> Test in Browser
+<li> Debug
+<li> Add search functionality. 
+<li> Test & Debug
+<li> Style
+<br>
+</details>
 
 
 
