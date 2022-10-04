@@ -154,7 +154,9 @@ https://learn.microsoft.com/en-us/dotnet/core/tutorials/cli-templates-create-ite
 https://youtu.be/Br8H-TuSSO8
 
 *_12pm: Lunch_
-*_1pm: Continue
+*_1pm: Continue tutorial_
+*_1:55pm: Realized that I created my table wrong so I'm going back into MySQL to do it again_
+*_2pm: Continue tutorial_
 
 
 
