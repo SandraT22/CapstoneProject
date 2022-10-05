@@ -181,6 +181,11 @@ https://youtu.be/Br8H-TuSSO8
 </details>
 
 *_8:30am: Test backend project in the browser & debug._
+*_9:30am: Figured out how to open in browser. 
+*_9:55: Working on adding swagger to see endpoints?_
+*_10:21: Got swagger to work. Have endpoints. Getting started on connecting my backend tro my frontend_
+*_10:50: Break_
+
 
 
 
