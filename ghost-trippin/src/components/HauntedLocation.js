@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function HauntedLocation() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
-  const [topStories, setHauntedLocations] = useState([]);
+  const [hauntedLocations, setHauntedLocations] = useState([]);
 
   useEffect(() => {
    
@@ -36,12 +36,12 @@ function HauntedLocation() {
         <React.Fragment>
           <h1>Haunted Locations</h1>
           <ul>
-            {hauntedLocation.map((article, index) =>
+            {hauntedLocations.map((locations, index) =>
               <li key={index}>
-                <h3>{location.name}</h3>
-                <p>{location.address}</p>
-                <p>{location.description}</p>
-                <p>{location.link}</p>
+                <h3>{locations.name}</h3>
+                <p>{locations.address}</p>
+                <p>{locations.description}</p>
+                <p>{locations.link}</p>
               </li>
             )}
           </ul>

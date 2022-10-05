@@ -187,6 +187,7 @@ https://youtu.be/Br8H-TuSSO8
 *_10:50: Break_
 *_11:10: Continue working. Debug_
 *_12pm: Lunch_
+*_1pm: Working in browser now, but the locations API is not displaying._
 
 
 
