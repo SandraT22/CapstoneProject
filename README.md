@@ -188,7 +188,8 @@ https://youtu.be/Br8H-TuSSO8
 *_11:10: Continue working. Debug_
 *_12pm: Lunch_
 *_1pm: Working in browser now, but the locations API is not displaying._
-*_2pm: debug_
+*_2pm: debug. react project now displays something from the c# project. No data is being displayed_
+*_2:40: Break_
 
 
 

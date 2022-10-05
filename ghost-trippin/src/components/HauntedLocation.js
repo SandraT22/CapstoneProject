@@ -7,7 +7,7 @@ function HauntedLocation() {
 
   useEffect(() => {
    
-    fetch(`http://localhost:5000/api/v1/Locations`)
+    fetch(`http://localhost:5000/api/v1/Locations/All`)
         .then(response => {
           console.log(response);
           if(!response.ok) {
