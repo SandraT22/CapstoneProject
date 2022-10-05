@@ -192,7 +192,9 @@ https://youtu.be/Br8H-TuSSO8
 *_2:40: Break_
 *_2:55: debug. add data to database_
 *_3:45 - 4:25: Career Services meeting_
-*_4:25: Open in browser and debug_
+*_4:25: Open in browser and debug. Issue with CORS_
+*_4:50: Sign out_
+*_4:50: Continue_
 
 
 
