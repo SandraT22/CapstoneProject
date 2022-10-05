@@ -190,6 +190,9 @@ https://youtu.be/Br8H-TuSSO8
 *_1pm: Working in browser now, but the locations API is not displaying._
 *_2pm: debug. react project now displays something from the c# project. No data is being displayed_
 *_2:40: Break_
+*_2:55: debug. add data to database_
+*_3:45 - 4:25: Career Services meeting_
+*_4:25: Open in browser and debug_
 
 
 
