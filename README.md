@@ -185,6 +185,8 @@ https://youtu.be/Br8H-TuSSO8
 *_9:55: Working on adding swagger to see endpoints?_
 *_10:21: Got swagger to work. Have endpoints. Getting started on connecting my backend tro my frontend_
 *_10:50: Break_
+*_11:10: Continue working. Debug_
+*_12pm: Lunch_
 
 
 
