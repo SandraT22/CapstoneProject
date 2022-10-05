@@ -159,7 +159,11 @@ https://youtu.be/Br8H-TuSSO8
 *_2pm: Continue tutorial_
 *_2:30pm: Break_
 *_2:45: Continue tutorial. Try to figure out what parts I need to rename to fit my project. Then make a github for it and delete the old one. Need to figure put how to install packages in Visual Studio: manage nuget packages_
-*_3:45 - 5pm: Continue building backend. Add locations to database. Goal of 20. Focusing on Oregon for now.In the future can add the state to it so that users can loot it up by the state. Super stretch goals would be to utelize the address or the name to search within the google maps API automatically. Things still leftt to do: finissh and test back end, connect backend to frontend, style, finish readme's for both projects. Figure out how to commit and push from visial stiudio to github. Committed and pushed!_
+*_3:45 - 5pm: Continue building backend. Add locations to database. Goal of 20. Focusing on Oregon for now.In the future can add the state to it so that users can loot it up by the state. Super stretch goals would be to utelize the address or the name to search within the google maps API automatically. Things still left to do: test backend, connect backend to frontend, finish readme's for both projects, style._
+*_8pm - 9pm: Added more locations_
+
+### 10/5
+*_8:00am: Start planning for the day(organizing thoughts on paper)_
 
 
 
