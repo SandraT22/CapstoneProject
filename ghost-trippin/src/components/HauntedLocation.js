@@ -7,7 +7,7 @@ function HauntedLocation() {
 
   useEffect(() => {
    
-    fetch(`http://localhost:5000/api/v1/Parks/All`)
+    fetch(`http://localhost:5000/api/v1/Locations`)
         .then(response => {
           console.log(response);
           if(!response.ok) {
@@ -17,7 +17,7 @@ function HauntedLocation() {
           }
         })
         .then((jsonifiedResponse) => {
-          setHauntedLocation(jsonifiedResponse)
+          setHauntedLocations(jsonifiedResponse)
           console.log(jsonifiedResponse);
           setIsLoaded(true)
         })
