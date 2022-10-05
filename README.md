@@ -164,7 +164,20 @@ https://youtu.be/Br8H-TuSSO8
 
 ### 10/5
 *_8:00am: Start planning for the day(organizing thoughts on paper)_
-
+*_8:33am: Transfer written to-do list to Readme_ 
+<details>
+<summary>To-do List</summary>
+<ul> 
+<li> Test backend project in the browser. 
+<li> Debug
+<li> Connect that project to this project. Follow epicodus lessons https://www.learnhowtoprogram.com/react/react-with-apis/ny-times-api-making-an-api-call-with-fetch-and-usestate. 
+<li> Test in Browser
+<li> Debug 
+<li> Write Readme for both projects. 
+<li> Style
+<li>If MVP is finished, revisit stretch goals. 
+<br>
+</details>
 
 
 
