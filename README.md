@@ -164,7 +164,8 @@ https://youtu.be/Br8H-TuSSO8
 
 ### 10/5
 *_8:00am: Start planning for the day(organizing thoughts on paper)_
-*_8:33am: Transfer written to-do list to Readme_ 
+*_8:15am: Join Dev team scrum on Discord._
+*_8:30am: Transfer written to-do list to Readme_ 
 <details>
 <summary>To-do List</summary>
 <ul> 
@@ -178,6 +179,8 @@ https://youtu.be/Br8H-TuSSO8
 <li>If MVP is finished, revisit stretch goals. 
 <br>
 </details>
+
+*_8:30am: Test backend project in the browser & debug._
 
 
 
