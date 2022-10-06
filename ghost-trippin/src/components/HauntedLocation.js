@@ -18,7 +18,7 @@ function HauntedLocation() {
         })
         .then((jsonifiedResponse) => {
           setHauntedLocations(jsonifiedResponse)
-          console.log(jsonifiedResponse);
+          console.log("string", jsonifiedResponse);
           setIsLoaded(true)
         })
         .catch((error) => {
@@ -36,12 +36,12 @@ function HauntedLocation() {
         <React.Fragment>
           <h1>Haunted Locations</h1>
           <ul>
-            {hauntedLocations.map((locations, index) =>
-              <li key={index}>
-                <h3>{locations.name}</h3>
-                <p>{locations.address}</p>
-                <p>{locations.description}</p>
-                <p>{locations.link}</p>
+            {hauntedLocations.map((locations) =>
+              <li key={locations.LocationId}>
+                <h3>{locations.Name}</h3>
+                <p>{locations.Address}</p>
+                <p>{locations.Description}</p>
+                <p>{locations.Link}</p>
               </li>
             )}
           </ul>

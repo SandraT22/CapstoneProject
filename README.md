@@ -194,7 +194,8 @@ https://youtu.be/Br8H-TuSSO8
 *_3:45 - 4:25: Career Services meeting_
 *_4:25: Open in browser and debug. Issue with CORS_
 *_4:50: Sign out_
-*_4:50: Continue_
+*_4:50 - 5:44: Continue. Debugged CORS. Both projects hav e to be running in the browser. Debugged display of the data list._
+
 
 
 
