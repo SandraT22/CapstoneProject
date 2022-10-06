@@ -1,6 +1,22 @@
 import React, { useState, useEffect } from 'react';
 
 function HauntedLocation() {
+  const title={
+    display: 'flex',
+    color: 'white',
+    fontSize: '3rem',
+  }
+  const textBackground={
+    color: 'white',
+    background: 'rgba(1, 1, 1, 10)',
+    opacity: 0.5
+  }
+  const names={
+    color: 'white',
+    fontSize: '1.4rem', 
+    padding: '8px'
+  }
+
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [hauntedLocations, setHauntedLocations] = useState([]);
@@ -34,17 +50,23 @@ function HauntedLocation() {
     } else {
       return (
         <React.Fragment>
-          <h1>Haunted Locations</h1>
-          <ul>
-            {hauntedLocations.map((locations) =>
-              <li key={locations.LocationId}>
-                <h3>{locations.Name}</h3>
-                <p>{locations.Address}</p>
-                <p>{locations.Description}</p>
-                <p>{locations.Link}</p>
-              </li>
-            )}
-          </ul>
+          <div style={title}>
+            <h1>Haunted Locations</h1>
+          </div>
+          <div style={textBackground}>
+            <ul>
+              {hauntedLocations.map((locations) =>
+                <li key={locations.LocationId}>
+                  <div style={names}>
+                    <h3>{locations.Name}</h3>
+                  </div>
+                  <p>{locations.Address}</p>
+                  <p>{locations.Description}</p> 
+                  <a href={locations.Link} target='_blank' rel='noreferrer'>Location Link</a>
+                </li>
+              )}
+            </ul>
+          </div>
         </React.Fragment>
       );
     }
