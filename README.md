@@ -196,6 +196,13 @@ https://youtu.be/Br8H-TuSSO8
 *_4:50: Sign out_
 *_4:50 - 5:44: Continue. Debugged CORS. Both projects hav e to be running in the browser. Debugged display of the data list._
 
+### 10/6
+*_8am - 10am: Add styling_
+*_10:30am: Present to class_
+
+#### 10/7
+*_11am: Add readme's to both projects and submit_
+
 
 
 
@@ -238,10 +245,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Known Bugs
 
-* 
+* Need to properly connect the saved API key in the .env file to the API call file. 
 
 ## License
-
+MIT
 
 
 Copyright (c) 2022 Sandra Tena 
